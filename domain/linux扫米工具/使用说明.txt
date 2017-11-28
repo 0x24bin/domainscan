@@ -1,0 +1,18 @@
+01. 下面的扫米支持com/net/info 等等域名后缀。具体可见 tld.org.json 文件。
+
+#内附一份2杂域名字典
+wget ftp://45.62.224.141/check.zip
+unzip check.zip
+chmod 777 ./anyLinux
+
+#这个命令是扫2杂玉米
+./anyLinux tn 2z.txt 1000
+
+#如果显示如下是可以注册的
+#-> 2o.tn can be regist!!can be regist!!can be regist!!
+
+开源地址：https://github.com/jekyllcao/BAT_Check_DomainName
+
+
+
+
